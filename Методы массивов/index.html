@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+    //   let fruits = ["мандарин", "апельсин", "яблоко"];
+    //   // push() - добавляет в конец массива
+    //   fruits.push("Киви");
+    //   console.log(fruits);
+
+    //   //pop() - удаляет последний элемент
+    //   fruits.pop();
+    //   console.log(fruits);
+
+    //   //unShift() - добавляет элемент в начало массива
+    //   fruits.inShift("Киви", "лимон");
+    //   console.log(fruits);
+
+    //   // shift() - удаляет элемент с начало массива
+    //   fruits.shift();
+    //   console.log(fruits);
+
+    
+
+
+
+    // let user = {
+    //   name: "maga",
+    //   abc(){
+
+    //   }
+    // }
+    // user.abc()
+
+
+
+    //  let fruits = ["яблоко", "банан", "киви"] 
+    //   fruits.forEach((elem, index, array)=>{
+    //     console.log(array);
+        
+    //   })
+      
+      
+    //  let cars= ["mercedes","bmw", "audi"]
+    //  cars.forEach((elem)=>{
+    //   console.log(elem);
+      
+    //  })
+
+     // map() - перебирает элементы массива и возваращает новый массив
+    //  let fruits = ["яблоко", "банан", "киви"] ;
+    //   console.log(fruits);
+      
+    //  let result = fruits.map((elem,index)=>{
+    //   return `${index+1}: + ${elem}`
+    //  });
+    //  console.log(result);
+     
+
+
+    let fruits2 = ["банан", "апельсин", "мандарин"]
+
+// indexOf() - ищет с начало и до конца
+    console.log(fruits2.indexOf("апельсин"));
+    // lastIndexOf() - ищет от конца до начало
+    console.log(fruits2.lastIndexOf("банан"));
+    
+    
+    //includes() - ищет с начала и до конца (если находит true , иначе false)
+    console.log(fruits2.includes("банан"));
+
+
+   
+   
+    // ------------ slice() - копирует элементы массива начиная с отметки и до конечной отметки
+    // затем возвращает массив с скопированными элементами
+    let numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+    
+    console.log(numbers.slice(0 , 4));
+
+    console.log(numbers.slice(-2));
+
+
+    //splice() - удаляет элементы в массиве по индексам 
+    // let numbers2 = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+    // console.log("до", numbers2);
+    
+    // numbers2.splice(0 , 3)// удаляет 1 2 3 
+
+    // console.log("после", numbers2);
+    // -------------------------------
+    //let cars = ["bmw" , "mercedes", "audi", "toyota"]
+    // console.log(cars.slice(1 , 4));
+
+    // let cars = ["bmw" , "mercedes", "audi", "toyota"]
+    // cars.splice(2 , 1);
+    // console.log(cars);
+
+
+    // let cars = ["bmw" , "mercedes", "audi", "toyota", "mercedes"]
+    // if ( cars.includes("mercedes")){
+    //   console.log("Я нашел");
+      
+    // }else{
+    //   console.log("Я не нашел");
+      
+    // }
+
+  //  if (cars.indexOf("mercedes") == 1) {
+  //   console.log("Я нашел его");
+    
+  //  }; 
+    
+    </script>
+  </body>
+</html>
